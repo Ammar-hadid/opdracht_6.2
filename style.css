@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.container div:nth-child(1) {
+    background: blue;
+}
+
+.container div:nth-child(2) {
+    background: black;
+}
+
+.container div:nth-child(3) {
+    background: red;
+}
+
+.container div:nth-child(4) {
+    background: green;
+}
+
+/* Bonus opdracht */
+
+.container-2 {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.container-2 div:nth-child(1) {
+    background: blue;
+}
+
+.container-2 div:nth-child(2) {
+    background: black;
+}
+
+.container-2 div:nth-child(3) {
+    background: red;
+}
+
+.container-2 div:nth-child(4) {
+    background: green;
+}
